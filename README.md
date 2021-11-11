@@ -1,7 +1,7 @@
-We use GoalExceleror and PermDroid to build the static GUI transformation diagrams for 300 real applications respectively.  100 apps are non open source applications and 200 apps are open source application.
+We use GoalExplorer and PermDroid to build the static GUI transformation diagrams for 300 real applications respectively.  100 apps are non open source applications and 200 apps are open source application.
 -------  
 Tips :     OSA: Open source applications.        NOSA:Non-open source applications.  <br>
-Table 1 shows the statistical information of the static GUI modeling results of 300 real applications by GoalExceleror and PermDroid <br>
+Table 1 shows the statistical information of the static GUI modeling results of 300 real applications by GoalExplorer and PermDroid <br>
 
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
@@ -15,7 +15,7 @@ Table 1 shows the statistical information of the static GUI modeling results of 
   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
   solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;height:13.0pt">
   <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">GoalExpleror</span></span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-theme-font:minor-bidi">GoalExplorer</span></span><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
   mso-bidi-theme-font:minor-bidi"><o:p></o:p></span></p>
   </td>
   <td width="113" colspan="2" valign="top" style="width:3.0cm;border:solid windowtext 1.0pt;
@@ -142,9 +142,9 @@ Table 1 shows the statistical information of the static GUI modeling results of 
 </tbody></table>
 
 <br>
-For 100 NOSA, the success rate of modeling of GoalExceleror is only 43%, i.e., 43 apps are successfully modeled. Among the 43 GUI models, only one model has edges; the success rate of modeling of PermDroid is 100%, and the GUI models of 93 apps have edges.
+For 100 NOSA, the success rate of modeling of GoalExplorer is only 43%, i.e., 43 apps are successfully modeled. Among the 43 GUI models, only one model has edges; the success rate of modeling of PermDroid is 100%, and the GUI models of 93 apps have edges.
 
-For 200 OSA, the success rate of modeling of GoalExceleror is 78.5%, and only 14 models have edges; the success rate of PermDroid is 98.5%, and 197 apps have been successfully modeled, including 171 models with edges.
+For 200 OSA, the success rate of modeling of GoalExplorer is 78.5%, and only 14 models have edges; the success rate of PermDroid is 98.5%, and 197 apps have been successfully modeled, including 171 models with edges.
 <br>
 
 <br>
@@ -164,7 +164,7 @@ For 200 OSA, the success rate of modeling of GoalExceleror is 78.5%, and only 14
   border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
   solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
   <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">GoalExpleror</span></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:15.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
+  mso-bidi-theme-font:minor-bidi">GoalExplorer</span></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:15.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
   mso-bidi-theme-font:minor-bidi"><o:p></o:p></span></p>
   </td>
   <td width="104" valign="top" style="width:78.3pt;border:solid windowtext 1.0pt;
