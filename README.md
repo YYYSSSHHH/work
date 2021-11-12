@@ -68,7 +68,7 @@ Table 1 shows the statistical information of the static GUI modeling results of 
   border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
   padding:0cm 5.4pt 0cm 5.4pt">
   <p class="MsoNormal" align="center" style="text-align:center"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="mso-bidi-font-size:
-  10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">Successful
+  10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">Success
   Rate of</span><span lang="EN-US"> </span></b><b style="mso-bidi-font-weight:
   normal"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:
   &quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">Modeling<o:p></o:p></span></b></p>
