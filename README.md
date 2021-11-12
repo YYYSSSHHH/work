@@ -266,11 +266,11 @@ For 200 OSA, the success rate of modeling of GoalExplorer is 78.5%, and only 14 
 </tbody></table>
 
 <br>
-It can be seen that among the 39 GUI models of non open source applications, the average number of edges of  GoalExplorer is only 0.26, but that of PermDroid is 13.10.  
+Among the 39 GUI models of non open source applications, the average number of edges of  GoalExplorer is only 0.26, but that of PermDroid is 13.10.  
 GoalExpleror takes about 30 minutes to build the GUI model, while PermDroid takes about 3.7 minutes.
 
 conclusion：
 ---
-PermDroid builds a static GUI model faster and more accurately than GoalExplorer.
-
+PermDroid is superior to GoalExplorer in terms of success rate, time-consuming and integrity. <br>
+In fact, the authors of GoalExplorer introduced that their work was carried out on a device with 20 core CPU and 512GB memory, which is different from the device configuration in our paper. This may be the reason for the poor performance of GoalExplorer.
 
