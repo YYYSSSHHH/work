@@ -1,4 +1,4 @@
-We use GoalExplorer and PermDroid to build the static GUI transition graph for 300 real applications respectively.  100 apps are non open source applications and 200 apps are open source application.
+We use GoalExplorer and PermDroid to build the static GUI transition graph for 300 real apps respectively.  100 apps are non open source applications and 200 apps are open source applications.
 -------  
 Tips :     OSA: Open source applications.        NOSA:Non-open source applications.  <br>
 Table 1 shows the statistical information of the static GUI modeling results of 300 real applications by GoalExplorer and PermDroid <br>
