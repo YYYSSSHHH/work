@@ -1,7 +1,7 @@
-We use GoalExplorer and PermDroid to build the static GUI transition graph for 300 real apps respectively.  100 apps are non open source applications and 200 apps are open source applications.
+We use GoalExplorer and PermDroid to build the static GUI transition graph for 300 real-world Android apps respectively, where 100 apps are close-source apps and 200 apps are open-source apps.
 -------  
-Tips :     OSA: Open source applications.        NOSA:Non-open source applications.  <br>
-Table 1 shows the statistical information of the static GUI modeling results of 300 real applications by GoalExplorer and PermDroid <br>
+Tips :     OSA: open-source applications.        CSA: close-source applications.  <br>
+Table 1 shows the statistical information of the static GUI modeling results of 300 real-world Android apps by GoalExplorer and PermDroid <br>
 
 <table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
  mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
@@ -46,7 +46,7 @@ Table 1 shows the statistical information of the static GUI modeling results of 
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
   <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">NOSA<o:p></o:p></span></p>
+  mso-bidi-theme-font:minor-bidi">CSA<o:p></o:p></span></p>
   </td>
   <td width="60" valign="top" style="width:45.1pt;border-top:none;border-left:none;
   border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
@@ -60,7 +60,7 @@ Table 1 shows the statistical information of the static GUI modeling results of 
   mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
   mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
   <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">NOSA<o:p></o:p></span></p>
+  mso-bidi-theme-font:minor-bidi">CSA<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style="mso-yfti-irow:2">
@@ -142,135 +142,17 @@ Table 1 shows the statistical information of the static GUI modeling results of 
 </tbody></table>
 
 <br>
-For 100 NOSA, the success rate of modeling of GoalExplorer is only 43%, i.e., 43 apps are successfully modeled. Among the 43 GUI models, only one model has edges; the success rate of modeling of PermDroid is 100%, and the GUI models of 93 apps have edges.
+For 100 CSA, the success rate of modeling of GoalExplorer is only 43%, i.e., 43 apps are successfully modeled. Among the 43 GUI models, only one model has edges; the success rate of modeling of PermDroid is 100%, and the GUI models of 93 apps have edges.
 
 For 200 OSA, the success rate of modeling of GoalExplorer is 78.5%, and only 14 models have edges; the success rate of PermDroid is 98.5%, and 197 apps have been successfully modeled, including 171 models with edges.
+
+In CSA, The average number of edges of  GoalExplorer is only 0.26, but that of PermDroid is 13.10. GoalExpleror takes about 30 minutes to build the GUI model, while PermDroid takes about 3.7 minutes.
 <br>
 
-<br>
--------  
 
-<br> Table 2 shows the average value of modeling information of 39 non open source applications
 
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
- mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
- <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
-  <td width="188" valign="top" style="width:141.35pt;border:solid windowtext 1.0pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:15.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">Tool<o:p></o:p></span></b></p>
-  </td>
-  <td width="100" valign="top" style="width:75.15pt;border:solid windowtext 1.0pt;
-  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">GoalExplorer</span></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:15.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi"><o:p></o:p></span></p>
-  </td>
-  <td width="104" valign="top" style="width:78.3pt;border:solid windowtext 1.0pt;
-  border-left:none;mso-border-left-alt:solid windowtext .5pt;mso-border-alt:
-  solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span class="SpellE"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">PermDroid</span></span><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:15.0pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi"><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style="mso-yfti-irow:1">
-  <td width="188" valign="top" style="width:141.35pt;border:solid windowtext 1.0pt;
-  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">Number of Activity Nodes<o:p></o:p></span></b></p>
-  </td>
-  <td width="100" valign="top" style="width:75.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">31.92<o:p></o:p></span></p>
-  </td>
-  <td width="104" valign="top" style="width:78.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">37.28<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style="mso-yfti-irow:2">
-  <td width="188" valign="top" style="width:141.35pt;border:solid windowtext 1.0pt;
-  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">Number of Fragment Nodes<o:p></o:p></span></b></p>
-  </td>
-  <td width="100" valign="top" style="width:75.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">0.10<o:p></o:p></span></p>
-  </td>
-  <td width="104" valign="top" style="width:78.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">44.92<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style="mso-yfti-irow:3">
-  <td width="188" valign="top" style="width:141.35pt;border:solid windowtext 1.0pt;
-  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">Number of Edges<o:p></o:p></span></b></p>
-  </td>
-  <td width="100" valign="top" style="width:75.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">0.26<o:p></o:p></span></p>
-  </td>
-  <td width="104" valign="top" style="width:78.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">13.10<o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style="mso-yfti-irow:4;mso-yfti-lastrow:yes">
-  <td width="188" valign="top" style="width:141.35pt;border:solid windowtext 1.0pt;
-  border-top:none;mso-border-top-alt:solid windowtext .5pt;mso-border-alt:solid windowtext .5pt;
-  padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">Time (s) <o:p></o:p></span></b></p>
-  </td>
-  <td width="100" valign="top" style="width:75.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">2006.33<o:p></o:p></span></p>
-  </td>
-  <td width="104" valign="top" style="width:78.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
-  mso-border-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt">
-  <p class="MsoNormal" align="center" style="text-align:center"><span lang="EN-US" style="mso-bidi-font-size:10.5pt;mso-bidi-font-family:&quot;Times New Roman&quot;;
-  mso-bidi-theme-font:minor-bidi">219.34<o:p></o:p></span></p>
-  </td>
- </tr>
-</tbody></table>
-
-<br>
-Among the 39 GUI models of non open source applications, the average number of edges of  GoalExplorer is only 0.26, but that of PermDroid is 13.10.  
-GoalExpleror takes about 30 minutes to build the GUI model, while PermDroid takes about 3.7 minutes.
-
-conclusion：
+Conclusion：
 ---
 PermDroid is superior to GoalExplorer in terms of success rate, time-consuming and integrity. <br>
-In fact, the authors of GoalExplorer introduced that their work was carried out on a device with 20 core CPU and 512GB memory, which is different from the device configuration in our paper. This may be the reason for the poor performance of GoalExplorer.
+We run the two tools on a 64-bit Windows 10 physical machine with an Intel Core i7-7700 CPU and 32GB of RAM.
 
