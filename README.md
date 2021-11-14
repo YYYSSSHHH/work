@@ -153,6 +153,6 @@ In CSA, The average number of edges of  GoalExplorer is only 0.26, but that of P
 
 Conclusion：
 ---
-PermDroid is superior to GoalExplorer in terms of success rate, time-consuming and integrity. <br>
+For STG (State Transition Graph) generation, PermDroid is superior to GoalExplorer in terms of success rate, completeness, and efficiency <br>
 We run the two tools on a 64-bit Windows 10 physical machine with an Intel Core i7-7700 CPU and 32GB of RAM.
 
